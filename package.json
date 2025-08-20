@@ -1,6 +1,6 @@
 {
   "name": "task-notification-mcp-server",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/CreateSun/task-notification-mcp-server"
@@ -8,6 +8,7 @@
   "bin": {
     "task-notification-mcp-server": "dist/index.js"
   },
+  "keywords": ["mcp", "notification", "task", "mcp-server"],
   "description": "A MCP server to send notification when task finish",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
