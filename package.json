@@ -1,6 +1,6 @@
 {
   "name": "task-notification-mcp-server",
-  "version": "0.0.8",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/CreateSun/task-notification-mcp-server"
