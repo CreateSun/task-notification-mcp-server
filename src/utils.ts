@@ -9,7 +9,7 @@ export async function sendNotification(
   return new Promise((resolve, reject) => {
     notifier.notify(
       {
-        sound: sound,
+        sound: sound as any,
         title: title || "",
         message: message || "No message",
       },

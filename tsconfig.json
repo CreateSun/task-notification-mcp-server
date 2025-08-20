@@ -1,18 +1,18 @@
 {
     // Visit https://aka.ms/tsconfig to read more about this file
     "compilerOptions": {
-      "paths": {
-        "@/*": ["./src/*"]
-      },
-      "resolveJsonModule": true,
       // File Layout
       "rootDir": "./src",
       "outDir": "./dist",
+
+      "moduleResolution": "nodenext",
+
+      "allowSyntheticDefaultImports": true,
   
       // Environment Settings
       // See also https://aka.ms/tsconfig/module
-      "module": "nodenext",
-      "target": "esnext",
+      "module": "NodeNext",
+      "target": "ES2020",
       // For nodejs:
       // "lib": ["esnext"],
       "types": ["node"],
