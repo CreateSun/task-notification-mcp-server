@@ -1,0 +1,29 @@
+{
+  "name": "task-notification-mcp-server",
+  "version": "1.0.0",
+  "description": "A MCP server to send notification when task finish",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CreateSun & AI Cursor",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "minimist": "^1.2.8",
+    "node-notifier": "^10.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node-notifier": "^8.0.5",
+    "typescript": "^5.9.2"
+  }
+}
